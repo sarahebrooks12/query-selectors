@@ -17,10 +17,11 @@ function changeText() {
         console.log(classFooters)
         for(let i = 0; i < classFooters.length; i++){
             classFooters[i].classList.add("goldenrod");
-            let dashed = document.querySelectorAll(".dashed");
-           dashed[i].classList.remove("dashed")
-}
+        }
+          
+
     }
+    document.querySelector(".dashed").classList.remove("dashed");
 }
 
 changeText()
